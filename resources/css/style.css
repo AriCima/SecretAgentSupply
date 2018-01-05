@@ -1,0 +1,61 @@
+html{
+  font-size: 16px;
+}
+
+body{
+  background-color: black;
+}
+
+header{
+  display: flex;
+  height: 45px;
+  width: 100%;
+  color: white;
+  font-family: Helvetica;
+  align-items: center;
+}
+
+.logo{
+  margin-left: 15%;
+}
+
+header span{
+  color: white;
+  margin-left: 15px;
+}
+
+.bike{
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/moto.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bike-box{
+  height: 50%;
+  width: 30%;
+  background-color: black;
+  margin-left: 15%;
+  color: white;
+  text-align: left;
+  justify-content: center;
+}
+
+.bike-box-texts{
+  position: center;cs
+}
+
+.bike-box p{
+  margin-left: 10%;
+  font-size: 0.5rem;
+}
+
+.bike-box h2{
+  margin-left: 10%;
+  font-size: 1.5rem;
+  background-color: blue;
+}
